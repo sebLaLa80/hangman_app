@@ -17,7 +17,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "postinstall": "npm run build",
-    "server": "node server.js"
+    "server": "react-scripts build && node server.js"
   },
   "eslintConfig": {
     "extends": [
